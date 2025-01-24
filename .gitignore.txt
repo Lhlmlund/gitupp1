@@ -1,0 +1,9 @@
+# Ignore all files with the extension .jar
+*.jar
+
+# Ignore all files in the out and target directories
+out/
+target/
+
+# Allow files ending with .html even under the target directory
+!target/**/*.html
